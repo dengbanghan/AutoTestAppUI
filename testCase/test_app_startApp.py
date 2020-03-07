@@ -23,7 +23,7 @@ class StartApp(InitApp):
     def test_003(self):
         '''好生活App：进入App'''
         startApp.inToApp(self,phonenum = '17722527464',code = '1708')
-        self.assertEqual(self.getHomePageCommonTitle(),"重磅推荐")
+        self.assertEqual(self.getHomePageCommonTitle(),"限时疯抢")
 
 if __name__ == '__main__':
     unittest.main(verbosity=2)
