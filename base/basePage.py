@@ -7,8 +7,6 @@
 
 from selenium.webdriver.support.expected_conditions import NoSuchElementException
 from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.remote.webdriver import WebDriver
-from appium import webdriver
 
 class WebDriver(object):
     def __init__(self,driver):
